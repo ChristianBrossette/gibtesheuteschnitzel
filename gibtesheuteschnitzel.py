@@ -1,9 +1,9 @@
-# Copyright 2015 by Christian Brossette
+# Copyright 2023 by Christian Brossette
 __author__ = "Christian Brossette"
-__copyright__ = "Copyright 2018"
+__copyright__ = "Copyright 2023"
 __credits__ = ["Christian Brossette"]
 __license__ = "GPL"
-__version__ = "0.2"
+__version__ = "0.3"
 __maintainer__ = "Christian Brossette"
 __email__ = ""
 __status__ = ""
@@ -31,7 +31,6 @@ today = german_days[time.strftime("%a")]
 
 
 def isMensaOpen():
-    # page = urllib.urlopen("http://www.studentenwerk-saarland.de/_menuAtom/1").read()
     with urllib.request.urlopen("http://www.studentenwerk-saarland.de/_menuAtom/1") as url:
         page = url.read()
         d = feedparser.parse(page)
@@ -42,7 +41,6 @@ def isMensaOpen():
 
 
 def get_schnitzel():
-    # page = urllib.urlopen("http://www.studentenwerk-saarland.de/_menuAtom/1").read()
     with urllib.request.urlopen("http://www.studentenwerk-saarland.de/_menuAtom/1") as url:
         page = url.read()
         d = feedparser.parse(page)
