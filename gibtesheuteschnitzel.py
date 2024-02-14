@@ -64,7 +64,6 @@ def statistics(answer):
     for line in f:
         last_line = line
 
-    today = time.strftime("%a")
     today_date = time.strftime("%x")
 
     if isMensaOpen():
@@ -149,7 +148,8 @@ def write_schnitzel_page(answer, stats):
     <footer>
         <h3>
             <a href='datenschutz.html'>Datenschutzerklaerung</a> |
-            <a href='changelog.html'>Changelog</a>
+            <a href='changelog.html'>Changelog</a> |
+            <a href='https://github.com/ChristianBrossette/gibtesheuteschnitzel'>GitHub</a>
         </h3>
     </footer>
     </body>
