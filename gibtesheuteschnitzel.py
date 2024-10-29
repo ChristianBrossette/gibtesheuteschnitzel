@@ -1,11 +1,11 @@
-# Copyright 2023 by Christian Brossette
+# Copyright 2024 by Christian Brossette
 __author__ = "Christian Brossette"
-__copyright__ = "Copyright 2023"
+__copyright__ = "Copyright 2024"
 __credits__ = ["Christian Brossette"]
 __license__ = "GPL"
-__version__ = "0.3"
+__version__ = "0.4"
 __maintainer__ = "Christian Brossette"
-__email__ = ""
+__email__ = "info@gibtesheuteschnitzel.de"
 __status__ = ""
 
 import re
@@ -14,6 +14,8 @@ import urllib.request
 import time
 import feedparser
 import argparse
+from datetime import datetime
+from collections import defaultdict
 
 
 parser = argparse.ArgumentParser(description='Schnitzel Page')
@@ -55,11 +57,10 @@ def get_schnitzel():
         return answer
 
 
-def statistics(answer):
+def update_stats_file(answer):
 
     f = open('stats.txt', 'r+')
-    # get the first and last entry of the stat file
-    first_line = f.readline()
+    # get the last entry of the stat file
     last_line = None
     for line in f:
         last_line = line
@@ -68,7 +69,7 @@ def statistics(answer):
 
     if isMensaOpen():
         if today_date == last_line.split('_')[0]:
-            if last_line.split('_')[-1].strip() != answer:
+            if last_line.split('_')[-1].strip() != answer and answer != 'nein':
                 f_ = open('stats.txt', 'r')
                 lines_ = f_.readlines()
                 lines_ = lines_[:-1]
@@ -82,25 +83,30 @@ def statistics(answer):
             f.write(str(today_date + '_' + answer + '\n'))
         f.close()
 
-    # calculate p_schnitzel
+
+def calculate_p_schnitzel():
     ja = 0
     total = 0
-    with open('stats.txt', 'r') as f__:
-        for line in f__:
+    with open('stats.txt', 'r') as f:
+        for line in f:
+            if total == 0:
+                # get the first entry of the stat file
+                first_line = line
             if line.split('_')[-1].strip() == 'ja':
                 ja += 1
                 total += 1
             else:
                 total += 1
+            last_line = line
 
     p_schnitzel = 100.0 * (float(ja) / float(total))
     wrong_date = first_line.split('_')[0].split('/')
     normal_date = '.'.join([wrong_date[1], wrong_date[0], wrong_date[2]])
-    return 	str('%3.2f' % (p_schnitzel)) + '% Schnitzel seit dem ' + str(normal_date)
+    answer = last_line.split('_')[-1].replace('\r', '').replace('\n', '')
+    return 	(str('%3.2f' % (p_schnitzel)) + '% Schnitzel seit dem ' + str(normal_date), answer)
 
 
 def write_schnitzel_page(answer, stats):
-
     f = open('webpage/index.html','w') # release
     page_begin = """<!DOCTYPE html>
 
@@ -142,16 +148,17 @@ def write_schnitzel_page(answer, stats):
     main_content	= ''.join(["<h1>", answer, "</h1>"])
     statistic		= ''.join(['<h2>', str(stats), '</h2>'])
     link			= ''.join(['<h2>', '<a href="https://mensaar.de/#/menu/sb">Mensaar Speiseplan</a>', '</h2>'])
+    fancyPlots		= ''.join(['<h2>', '<a href="evaluation.html">Auswertung</a>', '</h2>'])
 
     page_end = """
 
-    <footer>
-        <h3>
-            <a href='datenschutz.html'>Datenschutzerklaerung</a> |
-            <a href='changelog.html'>Changelog</a> |
-            <a href='https://github.com/ChristianBrossette/gibtesheuteschnitzel'>GitHub</a>
-        </h3>
-    </footer>
+        <footer>
+            <h3>
+                <a href='datenschutz.html'>Datenschutzerklaerung</a> |
+                <a href='changelog.html'>Changelog</a> |
+                <a href='https://github.com/ChristianBrossette/gibtesheuteschnitzel'>GitHub</a>
+            </h3>
+        </footer>
     </body>
     </html>"""
 
@@ -159,11 +166,13 @@ def write_schnitzel_page(answer, stats):
     f.write(main_content)
     f.write(statistic)
     f.write(link)
+    f.write(fancyPlots)
     f.write(page_end)
     f.close()
 
 
-
-answer = get_schnitzel()
-stats = statistics(answer)
-write_schnitzel_page(answer, stats)
+if __name__ == '__main__':
+    answer = get_schnitzel()
+    update_stats_file(answer)
+    stats, answer = calculate_p_schnitzel()
+    write_schnitzel_page(answer, stats)
