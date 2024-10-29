@@ -14,9 +14,8 @@ import urllib.request
 import time
 import feedparser
 import argparse
-import os
-import json
 from datetime import datetime
+import matplotlib.pyplot as plt
 from collections import defaultdict
 
 
@@ -55,10 +54,11 @@ def get_schnitzel():
         if schnitzel and isMensaOpen():
             answer = 'ja'
 
-        return (answer, d)
+        return answer
 
 
-def update_stats_file(answer, page):
+def update_stats_file(answer):
+
     f = open('stats.txt', 'r+')
     # get the last entry of the stat file
     last_line = None
@@ -79,39 +79,9 @@ def update_stats_file(answer, page):
                     f_.write(l_)
                 f_.write(str(today_date + '_' + answer + '\n'))
                 f_.close()
-                write_menue_to_archive(page)
         else:
             f.write(str(today_date + '_' + answer + '\n'))
-            write_menue_to_archive(page)
         f.close()
-
-
-def write_menue_to_archive(page):
-    # Get the current date for the directory and filename
-    current_date = datetime.now()
-    year = current_date.strftime("%Y")
-    month = current_date.strftime("%m")
-    day = current_date.strftime("%d")
-
-    # Get the current working directory
-    base_directory = os.getcwd()
-
-    # Define the directory structure based on the current date
-    directory_path = os.path.join(base_directory, f"menue_archive/{year}/{month}/{day}")
-
-    # Create the directory structure if it doesn't exist
-    os.makedirs(directory_path, exist_ok=True)
-
-    # Define the file name based on the current date
-    file_name = f"mensaar_menue_{year}_{month}_{day}.json"
-
-    # Full path to the file
-    file_path = os.path.join(directory_path, file_name)
-
-    # Write the menu content as pretty JSON to the file
-    with open(file_path, 'w') as file:
-        json.dump(page, file, indent=4)  # Write JSON with indentation for readability
-
 
 
 def calculate_p_schnitzel():
@@ -136,7 +106,72 @@ def calculate_p_schnitzel():
     return 	(str('%3.2f' % (p_schnitzel)) + '% Schnitzel seit dem ' + str(normal_date), answer)
 
 
+def makeFancyPlots():
+    # Specify file path
+    file_path = 'stats.txt'
+
+    # Initialize data storage
+    current_year_data = defaultdict(lambda: {'ja': 0, 'nein': 0})
+    previous_years_data = defaultdict(lambda: {'ja': 0, 'nein': 0})
+
+    # Read the file line by line
+    with open(file_path, 'r') as file:
+        for line in file:
+            # Split each line based on the separator
+            parts = line.strip().split('_')
+            
+            # Extract date and value from the parts
+            date_str, value = parts[0], parts[1]
+            
+            # Convert date string to datetime object
+            date = datetime.strptime(date_str, "%m/%d/%y")
+            month_year = date.strftime('%Y-%m')
+
+            # Update data based on current or previous years
+            if date.year == datetime.now().year:
+                current_year_data[month_year][value] += 1
+            else:
+                previous_years_data[month_year][value] += 1
+
+    # Convert data to a format suitable for plotting
+    current_year_labels, current_year_values = zip(*current_year_data.items())
+    previous_years_labels, previous_years_values = zip(*previous_years_data.items())
+
+    # Increase figure size and set dpi for better resolution
+    fig, ax = plt.subplots(figsize=(12, 8), dpi=100)  # Adjust figsize and dpi as needed
+
+    # Plot for the current year and save to disk with increased resolution
+    ax.bar(current_year_labels, [v['ja'] for v in current_year_values], color='green', label='ja')
+    ax.bar(current_year_labels, [v['nein'] for v in current_year_values], bottom=[v['ja'] for v in current_year_values], color='red', label='nein')
+    ax.set_title(f'Auftreten Schnitzel für das Jahr {datetime.now().year}')
+    ax.set_xlabel('Monat')
+    ax.set_ylabel('Auftreten')
+    ax.legend(title='Auftreten Schnitzel', labels=['ja', 'nein'])
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig('webpage/current_year_plot.png')
+
+    # Increase figure size and set dpi for better resolution
+    fig, ax = plt.subplots(figsize=(12, 8), dpi=100)  # Adjust figsize and dpi as needed
+
+    # Plot for previous years and save to disk with increased resolution
+    ax.bar(previous_years_labels, [v['ja'] for v in previous_years_values], color='green', label='ja')
+    ax.bar(previous_years_labels, [v['nein'] for v in previous_years_values], bottom=[v['ja'] for v in previous_years_values], color='red', label='nein')
+    ax.set_title('Auftreten Schnitzel für die vergangenen Jahre')
+    ax.set_xlabel('Monat')
+    ax.set_ylabel('Auftreten')
+    ax.legend(title='Auftreten Schnitzel', labels=['ja', 'nein'])
+    plt.xticks(rotation=45, ha='right')
+
+     # Adjust font size for x-axis ticks
+    plt.xticks(fontsize=6)
+
+    plt.tight_layout()
+    plt.savefig('webpage/previous_years_plot.png')
+
+
 def write_schnitzel_page(answer, stats):
+
     f = open('webpage/index.html','w') # release
     page_begin = """<!DOCTYPE html>
 
@@ -202,7 +237,8 @@ def write_schnitzel_page(answer, stats):
 
 
 if __name__ == '__main__':
-    answer, page = get_schnitzel()
-    update_stats_file(answer, page)
+    answer = get_schnitzel()
+    update_stats_file(answer)
     stats, answer = calculate_p_schnitzel()
+    # makeFancyPlots()
     write_schnitzel_page(answer, stats)

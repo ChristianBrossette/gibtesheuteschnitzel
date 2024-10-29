@@ -1,0 +1,199 @@
+{
+    "bozo": false,
+    "entries": [
+        {
+            "authors": [
+                {
+                    "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                    "href": "https://www.stw-saarland.de/"
+                }
+            ],
+            "author_detail": {
+                "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                "href": "https://www.stw-saarland.de/"
+            },
+            "href": "https://www.stw-saarland.de/",
+            "author": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+            "updated": "2024-10-29T01:00:00+01:00",
+            "updated_parsed": [
+                2024,
+                10,
+                29,
+                0,
+                0,
+                0,
+                1,
+                303,
+                0
+            ],
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16349",
+                    "type": "text/html"
+                }
+            ],
+            "link": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16349",
+            "id": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16349",
+            "guidislink": false,
+            "title": "Dienstag, 29.10.2024",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "",
+                "value": "Dienstag, 29.10.2024"
+            },
+            "summary": "<b>Men\u00fc 1</b><br />\n                                                                            Vegan: Sojageschnetzeltes(So,Sl,Sf,We) mit Reis Bunter Rohkostsalat (9,Ei,La,Sf,We),  Haselnuss-Nougatquark (La,Has)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            KlimaTeller: Veganer Bratling (22,We,So,Di) Rahmso\u00dfe mit Champignons (3,La,We,Ge),  Sp\u00e4tzle (Ei,We),  Alternativbeilage,  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf), Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (Apfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - KlimaTeller: Sojageschnetzeltes(So,Sl,Sf,We) mit Reis  (Vegan) <br />\n                                                                                    - Rustico Tortelli mit cremiger K\u00e4sef\u00fcllung (Ei,La,We) Tomaten-Zucchini-Bechamelso\u00dfe (17,La),  Geriebener K\u00e4se (La)<br />\n                                                                                    - Winterhilfe Saar: Unter Vorlage des Berechtigungsscheines erhalten Sie das Vegetarische Men\u00fc<br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Salattheke: Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais, Peperoni,  Romasalat, Kopfsalat, Radicchio,  H\u00fclsenfr\u00fcchte,  Cocktailso\u00dfe (9,Ei,La,Sf,We),  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                            KlimaTeller: Pizza Spinat vegetarisch (La,We) <br />\n                                                                        <br />",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "",
+                "value": "<b>Men\u00fc 1</b><br />\n                                                                            Vegan: Sojageschnetzeltes(So,Sl,Sf,We) mit Reis Bunter Rohkostsalat (9,Ei,La,Sf,We),  Haselnuss-Nougatquark (La,Has)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            KlimaTeller: Veganer Bratling (22,We,So,Di) Rahmso\u00dfe mit Champignons (3,La,We,Ge),  Sp\u00e4tzle (Ei,We),  Alternativbeilage,  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf), Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (Apfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - KlimaTeller: Sojageschnetzeltes(So,Sl,Sf,We) mit Reis  (Vegan) <br />\n                                                                                    - Rustico Tortelli mit cremiger K\u00e4sef\u00fcllung (Ei,La,We) Tomaten-Zucchini-Bechamelso\u00dfe (17,La),  Geriebener K\u00e4se (La)<br />\n                                                                                    - Winterhilfe Saar: Unter Vorlage des Berechtigungsscheines erhalten Sie das Vegetarische Men\u00fc<br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Salattheke: Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais, Peperoni,  Romasalat, Kopfsalat, Radicchio,  H\u00fclsenfr\u00fcchte,  Cocktailso\u00dfe (9,Ei,La,Sf,We),  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                            KlimaTeller: Pizza Spinat vegetarisch (La,We) <br />\n                                                                        <br />"
+            }
+        },
+        {
+            "authors": [
+                {
+                    "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                    "href": "https://www.stw-saarland.de/"
+                }
+            ],
+            "author_detail": {
+                "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                "href": "https://www.stw-saarland.de/"
+            },
+            "href": "https://www.stw-saarland.de/",
+            "author": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+            "updated": "2024-10-30T01:00:00+01:00",
+            "updated_parsed": [
+                2024,
+                10,
+                30,
+                0,
+                0,
+                0,
+                2,
+                304,
+                0
+            ],
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16350",
+                    "type": "text/html"
+                }
+            ],
+            "link": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16350",
+            "id": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16350",
+            "guidislink": false,
+            "title": "Mittwoch, 30.10.2024",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "",
+                "value": "Mittwoch, 30.10.2024"
+            },
+            "summary": "<b>Men\u00fc 1</b><br />\n                                                                            PastaBoccolotti (We) Vegan: So\u00dfe alla romana  (14,17,Sw),  Geriebener K\u00e4se (La),  Bunt gemischter Blattsalat,  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Klare Salatso\u00dfe (Sf),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Rindergeschnetzeltes s\u00fc\u00df-sauer (We,Ge) Reis (aus biologischem Anbau),  Alternativbeilage,  Bunter Wei\u00dfkrautsalat (9,Ei,La,Sf,We),  Grie\u00df-Pudding (La,We)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - ZiS: Spezialit\u00e4tentag Spezialit\u00e4tentag  Georgien  Rindfleischpfanne mit Br\u00f6tchen<br />\n                                                                                    - mensaVital: Pikante Sesamnudeln mit 8 Sch\u00e4tzen (En,So,Se,We) <br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Lollo Bianco,  Eichblattsalat,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Rindfleischfrikadelle  (16,24,Ei,We) Pfefferrahmso\u00dfe (La,We,Ge),  Steakhouse Pommes<br />\n                                                                                    - Vegan: Knusperfrikadelle (22,We) Pfefferrahmso\u00dfe (La,We,Ge),  Steakhouse Pommes<br />\n                                                                                                                <br />",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "",
+                "value": "<b>Men\u00fc 1</b><br />\n                                                                            PastaBoccolotti (We) Vegan: So\u00dfe alla romana  (14,17,Sw),  Geriebener K\u00e4se (La),  Bunt gemischter Blattsalat,  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Klare Salatso\u00dfe (Sf),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Rindergeschnetzeltes s\u00fc\u00df-sauer (We,Ge) Reis (aus biologischem Anbau),  Alternativbeilage,  Bunter Wei\u00dfkrautsalat (9,Ei,La,Sf,We),  Grie\u00df-Pudding (La,We)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - ZiS: Spezialit\u00e4tentag Spezialit\u00e4tentag  Georgien  Rindfleischpfanne mit Br\u00f6tchen<br />\n                                                                                    - mensaVital: Pikante Sesamnudeln mit 8 Sch\u00e4tzen (En,So,Se,We) <br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Lollo Bianco,  Eichblattsalat,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Rindfleischfrikadelle  (16,24,Ei,We) Pfefferrahmso\u00dfe (La,We,Ge),  Steakhouse Pommes<br />\n                                                                                    - Vegan: Knusperfrikadelle (22,We) Pfefferrahmso\u00dfe (La,We,Ge),  Steakhouse Pommes<br />\n                                                                                                                <br />"
+            }
+        },
+        {
+            "authors": [
+                {
+                    "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                    "href": "https://www.stw-saarland.de/"
+                }
+            ],
+            "author_detail": {
+                "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                "href": "https://www.stw-saarland.de/"
+            },
+            "href": "https://www.stw-saarland.de/",
+            "author": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+            "updated": "2024-10-31T01:00:00+01:00",
+            "updated_parsed": [
+                2024,
+                10,
+                31,
+                0,
+                0,
+                0,
+                3,
+                305,
+                0
+            ],
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16351",
+                    "type": "text/html"
+                }
+            ],
+            "link": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16351",
+            "id": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16351",
+            "guidislink": false,
+            "title": "Donnerstag, 31.10.2024",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "",
+                "value": "Donnerstag, 31.10.2024"
+            },
+            "summary": "<b>Men\u00fc 1</b><br />\n                                                                            Linseneintopf-vegan- (4,Sl,We) Br\u00f6tchen (La,We),  Bohnensalat (9,Ei,Sf,We),  Erdbeerquark (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            H\u00e4hnchen-Cordon-Bleu ( mit Putenschinken ) (2,12,La,We) Ketchup,  Pommes Frites,  Alternativbeilage,  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Fischfilet im Backteig (20,23,Fi,La,Sf,We) So\u00dfe Tirolienne (1,9,Ei,La,Sf,We),  Gebackene Chipskartoffel<br />\n                                                                                    - Vegan: Rotes Linsengem\u00fcse(Mediterran) (17) Basmatireis (aus biologischem Anbau)<br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Chicoree,  Lollo Bianco,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Flammkuchen mit H\u00e4hnchenfiletstreifen (12,La,We) <br />\n                                                                                    - Flammkuchen mit buntem Gem\u00fcse (La,We) <br />\n                                                                                                                <br />",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "",
+                "value": "<b>Men\u00fc 1</b><br />\n                                                                            Linseneintopf-vegan- (4,Sl,We) Br\u00f6tchen (La,We),  Bohnensalat (9,Ei,Sf,We),  Erdbeerquark (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            H\u00e4hnchen-Cordon-Bleu ( mit Putenschinken ) (2,12,La,We) Ketchup,  Pommes Frites,  Alternativbeilage,  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Fischfilet im Backteig (20,23,Fi,La,Sf,We) So\u00dfe Tirolienne (1,9,Ei,La,Sf,We),  Gebackene Chipskartoffel<br />\n                                                                                    - Vegan: Rotes Linsengem\u00fcse(Mediterran) (17) Basmatireis (aus biologischem Anbau)<br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Chicoree,  Lollo Bianco,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Flammkuchen mit H\u00e4hnchenfiletstreifen (12,La,We) <br />\n                                                                                    - Flammkuchen mit buntem Gem\u00fcse (La,We) <br />\n                                                                                                                <br />"
+            }
+        }
+    ],
+    "feed": {
+        "title": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+        "title_detail": {
+            "type": "text/plain",
+            "language": null,
+            "base": "",
+            "value": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken"
+        },
+        "subtitle": "29.10. - 3.11.2024",
+        "subtitle_detail": {
+            "type": "text/plain",
+            "language": null,
+            "base": "",
+            "value": "29.10. - 3.11.2024"
+        },
+        "id": "https://www.stw-saarland.de/_menuAtom/1",
+        "guidislink": true,
+        "link": "https://www.stw-saarland.de/_menuAtom/1",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://www.stw-saarland.de/_menuAtom/1"
+            }
+        ],
+        "updated": "2024-10-29T20:06:55+01:00",
+        "updated_parsed": [
+            2024,
+            10,
+            29,
+            19,
+            6,
+            55,
+            1,
+            303,
+            0
+        ]
+    },
+    "headers": {},
+    "encoding": "utf-8",
+    "version": "atom10",
+    "namespaces": {
+        "": "http://www.w3.org/2005/Atom"
+    }
+}
