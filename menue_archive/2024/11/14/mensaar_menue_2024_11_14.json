@@ -1,0 +1,249 @@
+{
+    "bozo": false,
+    "entries": [
+        {
+            "authors": [
+                {
+                    "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                    "href": "https://www.stw-saarland.de/"
+                }
+            ],
+            "author_detail": {
+                "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                "href": "https://www.stw-saarland.de/"
+            },
+            "href": "https://www.stw-saarland.de/",
+            "author": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+            "updated": "2024-11-14T01:00:00+01:00",
+            "updated_parsed": [
+                2024,
+                11,
+                14,
+                0,
+                0,
+                0,
+                3,
+                319,
+                0
+            ],
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16443",
+                    "type": "text/html"
+                }
+            ],
+            "link": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16443",
+            "id": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16443",
+            "guidislink": false,
+            "title": "Donnerstag, 14.11.2024",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "",
+                "value": "Donnerstag, 14.11.2024"
+            },
+            "summary": "<b>Men\u00fc 1</b><br />\n                                                                            Linsen-Gem\u00fcse-Chili (17,Sl,Sf,Sw) Vollkornnudeln (We),  Gurkensalat Toskana (Sf),  Stracciatella-Bananen-Sahnequark (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            H\u00e4hnchenbrustfilet (12) So\u00dfe Piselli (mit Erbsen) (18,La),  Reis (aus biologischem Anbau),  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Fish and chips (8,20,Fi,La,We) Aioliso\u00dfe (9,17,18,Ei,La,Sf,We)<br />\n                                                                                    - Gem\u00fcse-Rohkost Bowl mit Bulgur und Sojastreifen (So,Sl,Sf,We) Vegan: Kr\u00e4uter-Dip (3,22,So)<br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Chicoree,  Lollo Bianco,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Flammkuchen Els\u00e4sser Art (2,3,13,La,We) <br />\n                                                                                    - Flammkuchen mit buntem Gem\u00fcse (La,We) <br />\n                                                                                                                <br />",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "",
+                "value": "<b>Men\u00fc 1</b><br />\n                                                                            Linsen-Gem\u00fcse-Chili (17,Sl,Sf,Sw) Vollkornnudeln (We),  Gurkensalat Toskana (Sf),  Stracciatella-Bananen-Sahnequark (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            H\u00e4hnchenbrustfilet (12) So\u00dfe Piselli (mit Erbsen) (18,La),  Reis (aus biologischem Anbau),  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Fish and chips (8,20,Fi,La,We) Aioliso\u00dfe (9,17,18,Ei,La,Sf,We)<br />\n                                                                                    - Gem\u00fcse-Rohkost Bowl mit Bulgur und Sojastreifen (So,Sl,Sf,We) Vegan: Kr\u00e4uter-Dip (3,22,So)<br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Chicoree,  Lollo Bianco,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Flammkuchen Els\u00e4sser Art (2,3,13,La,We) <br />\n                                                                                    - Flammkuchen mit buntem Gem\u00fcse (La,We) <br />\n                                                                                                                <br />"
+            }
+        },
+        {
+            "authors": [
+                {
+                    "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                    "href": "https://www.stw-saarland.de/"
+                }
+            ],
+            "author_detail": {
+                "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                "href": "https://www.stw-saarland.de/"
+            },
+            "href": "https://www.stw-saarland.de/",
+            "author": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+            "updated": "2024-11-15T01:00:00+01:00",
+            "updated_parsed": [
+                2024,
+                11,
+                15,
+                0,
+                0,
+                0,
+                4,
+                320,
+                0
+            ],
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16406",
+                    "type": "text/html"
+                }
+            ],
+            "link": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16406",
+            "id": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16406",
+            "guidislink": false,
+            "title": "Freitag, 15.11.2024",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "",
+                "value": "Freitag, 15.11.2024"
+            },
+            "summary": "<b>Men\u00fc 1</b><br />\n                                                                            Kaisergem\u00fcse mit gebackenem Tofu (So,La) Reis (aus biologischem Anbau),  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Stracciatella-Quark (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Paniertes Schnitzel vom Schwein (13,Ei,We) Ketchup,  Pommes Frites,  Karottensalat (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Puten Cordon-bleu (2,3,8,12,Ei,La,We) Rahmso\u00dfe (La,We,Ge),  Kartoffelkroketten (We)<br />\n                                                                                    - Vegan: S\u00fc\u00dfkartoffel-Gnocchi-Pfanne mit Tomaten und Basilikum (2,17,Sw,We) <br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Kopfsalat,  Endiviensalat,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Hausgemachte Erbsensuppe (4,Sl,We) Br\u00f6tchen (La,We),  Wiener W\u00fcrstchen (13)<br />\n                                                                                    - Hausgemachte Erbsensuppe (4,Sl,We) Br\u00f6tchen (La,We)<br />\n                                                                                                                <br />",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "",
+                "value": "<b>Men\u00fc 1</b><br />\n                                                                            Kaisergem\u00fcse mit gebackenem Tofu (So,La) Reis (aus biologischem Anbau),  Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Stracciatella-Quark (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Paniertes Schnitzel vom Schwein (13,Ei,We) Ketchup,  Pommes Frites,  Karottensalat (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Puten Cordon-bleu (2,3,8,12,Ei,La,We) Rahmso\u00dfe (La,We,Ge),  Kartoffelkroketten (We)<br />\n                                                                                    - Vegan: S\u00fc\u00dfkartoffel-Gnocchi-Pfanne mit Tomaten und Basilikum (2,17,Sw,We) <br />\n                                                                                                                <br />\n                                                                                                                                                                                            <b>Salatbuffet</b><br />\n                                                                            Tomatensalat Weisskraut,  Gurken,  Zwiebel Ringe,  Karotten,  Gemischter Paprika,  Mais,  Peperoni,  Kopfsalat,  Endiviensalat,  Radicchio,  Klare Salatso\u00dfe (Sf)<br />\n                                                                        <br />\n                                                                                                                                <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Hausgemachte Erbsensuppe (4,Sl,We) Br\u00f6tchen (La,We),  Wiener W\u00fcrstchen (13)<br />\n                                                                                    - Hausgemachte Erbsensuppe (4,Sl,We) Br\u00f6tchen (La,We)<br />\n                                                                                                                <br />"
+            }
+        },
+        {
+            "authors": [
+                {
+                    "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                    "href": "https://www.stw-saarland.de/"
+                }
+            ],
+            "author_detail": {
+                "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                "href": "https://www.stw-saarland.de/"
+            },
+            "href": "https://www.stw-saarland.de/",
+            "author": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+            "updated": "2024-11-18T01:00:00+01:00",
+            "updated_parsed": [
+                2024,
+                11,
+                18,
+                0,
+                0,
+                0,
+                0,
+                323,
+                0
+            ],
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16557",
+                    "type": "text/html"
+                }
+            ],
+            "link": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16557",
+            "id": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16557",
+            "guidislink": false,
+            "title": "Montag, 18.11.2024",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "",
+                "value": "Montag, 18.11.2024"
+            },
+            "summary": "<b>Men\u00fc 1</b><br />\n                                                                            Paniertes Schnitzel vom Schwein (13,Ei,We) Rahmso\u00dfe (La,We,Ge),  Pommes Frites,  Alternativbeilage,  Bunter Wei\u00dfkrautsalat (9,Ei,La,Sf,We),  Grie\u00df-Pudding (La,We)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Chili-Pasta mit Knoblauch und Hartk\u00e4se (2,17,Ei,La,We,Pi) Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Thai Nudel mit Mango, Erdn\u00fcssen (3,17,En,So,Sl,Sf,Se,We) <br />\n                                                                                    - Vegan: K\u00fcrbis-Rote-Betegem\u00fcse mit Reis (17,Ma) <br />\n                                                                                                                <br />\n                                                                                                                                                                                                                                                        <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                            Pfannengyros H\u00e4hnchen/Soja (12,So,Sl,Sf) Knoblauchso\u00dfe (9,17,Ei,La,Sf,We),  Krautsalat (9,Ei,La,Sf,We),  Pommes Frites<br />\n                                                                        <br />",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "",
+                "value": "<b>Men\u00fc 1</b><br />\n                                                                            Paniertes Schnitzel vom Schwein (13,Ei,We) Rahmso\u00dfe (La,We,Ge),  Pommes Frites,  Alternativbeilage,  Bunter Wei\u00dfkrautsalat (9,Ei,La,Sf,We),  Grie\u00df-Pudding (La,We)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Chili-Pasta mit Knoblauch und Hartk\u00e4se (2,17,Ei,La,We,Pi) Bunt gemischter Blattsalat,  Klare Salatso\u00dfe (Sf),  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Thai Nudel mit Mango, Erdn\u00fcssen (3,17,En,So,Sl,Sf,Se,We) <br />\n                                                                                    - Vegan: K\u00fcrbis-Rote-Betegem\u00fcse mit Reis (17,Ma) <br />\n                                                                                                                <br />\n                                                                                                                                                                                                                                                        <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                            Pfannengyros H\u00e4hnchen/Soja (12,So,Sl,Sf) Knoblauchso\u00dfe (9,17,Ei,La,Sf,We),  Krautsalat (9,Ei,La,Sf,We),  Pommes Frites<br />\n                                                                        <br />"
+            }
+        },
+        {
+            "authors": [
+                {
+                    "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                    "href": "https://www.stw-saarland.de/"
+                }
+            ],
+            "author_detail": {
+                "name": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+                "href": "https://www.stw-saarland.de/"
+            },
+            "href": "https://www.stw-saarland.de/",
+            "author": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+            "updated": "2024-11-19T01:00:00+01:00",
+            "updated_parsed": [
+                2024,
+                11,
+                19,
+                0,
+                0,
+                0,
+                1,
+                324,
+                0
+            ],
+            "links": [
+                {
+                    "rel": "alternate",
+                    "href": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16558",
+                    "type": "text/html"
+                }
+            ],
+            "link": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16558",
+            "id": "https://www.stw-saarland.de/Verpflegung/Mensa-Saarbrucken/Speiseplan-aktuell,16558",
+            "guidislink": false,
+            "title": "Dienstag, 19.11.2024",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "",
+                "value": "Dienstag, 19.11.2024"
+            },
+            "summary": "<b>Men\u00fc 1</b><br />\n                                                                            H\u00e4hnchenbrustfilet  Toscana (12) Tomatenso\u00dfe mit Gem\u00fcse (17),  Reis (aus biologischem Anbau),  Alternativbeilage,  Bunt gemischter Blattsalat,  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Klare Salatso\u00dfe (Sf),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Chili sin carne (17,18,22) Nachos (1,4),  Karottensalat (9,Ei,La,Sf,We),  Sahnepudding (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Hirschragout mit Bohnengem\u00fcse (16,La,We) Kartoffelkl\u00f6\u00dfe<br />\n                                                                                    - Vegan: Bunter Gem\u00fcseteller Vegan: Kr\u00e4uter-Dip (3,22,So),  Gerstoni-Tomaten-Rucolasalat (Ge)<br />\n                                                                                                                <br />\n                                                                                                                                                                                                                                                        <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Pizza Diavolo mit Peperoni, Salami und Paprika (1,2,3,13,La,We) <br />\n                                                                                    - Pizza vegetarisch mit Oliven, Paprika,Broccoli und getrockneten Tomaten (3,6,La,We) <br />\n                                                                                                                <br />",
+            "summary_detail": {
+                "type": "text/html",
+                "language": null,
+                "base": "",
+                "value": "<b>Men\u00fc 1</b><br />\n                                                                            H\u00e4hnchenbrustfilet  Toscana (12) Tomatenso\u00dfe mit Gem\u00fcse (17),  Reis (aus biologischem Anbau),  Alternativbeilage,  Bunt gemischter Blattsalat,  Wei\u00dfe Salatso\u00dfe Dressing (9,Ei,La,Sf,We),  Klare Salatso\u00dfe (Sf),  Obst (\u00c4pfel aus biologischem Anbau)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Men\u00fc 2</b><br />\n                                                                            Chili sin carne (17,18,22) Nachos (1,4),  Karottensalat (9,Ei,La,Sf,We),  Sahnepudding (La)<br />\n                                                                        <br />\n                                                                                                                                                                                            <b>Wahlessen</b><br />\n                                                                                                                        - Hirschragout mit Bohnengem\u00fcse (16,La,We) Kartoffelkl\u00f6\u00dfe<br />\n                                                                                    - Vegan: Bunter Gem\u00fcseteller Vegan: Kr\u00e4uter-Dip (3,22,So),  Gerstoni-Tomaten-Rucolasalat (Ge)<br />\n                                                                                                                <br />\n                                                                                                                                                                                                                                                        <b>Mensacaf\u00e9 Mittag</b><br />\n                                                                                                                        - Pizza Diavolo mit Peperoni, Salami und Paprika (1,2,3,13,La,We) <br />\n                                                                                    - Pizza vegetarisch mit Oliven, Paprika,Broccoli und getrockneten Tomaten (3,6,La,We) <br />\n                                                                                                                <br />"
+            }
+        }
+    ],
+    "feed": {
+        "title": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken",
+        "title_detail": {
+            "type": "text/plain",
+            "language": null,
+            "base": "",
+            "value": "Speiseplan f\u00fcr Mensa Saarbr\u00fccken"
+        },
+        "subtitle": "14.11. - 19.11.2024",
+        "subtitle_detail": {
+            "type": "text/plain",
+            "language": null,
+            "base": "",
+            "value": "14.11. - 19.11.2024"
+        },
+        "id": "https://www.stw-saarland.de/_menuAtom/1",
+        "guidislink": true,
+        "link": "https://www.stw-saarland.de/_menuAtom/1",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://www.stw-saarland.de/_menuAtom/1"
+            }
+        ],
+        "updated": "2024-11-13T20:07:07+01:00",
+        "updated_parsed": [
+            2024,
+            11,
+            13,
+            19,
+            7,
+            7,
+            2,
+            318,
+            0
+        ]
+    },
+    "headers": {},
+    "encoding": "utf-8",
+    "version": "atom10",
+    "namespaces": {
+        "": "http://www.w3.org/2005/Atom"
+    }
+}

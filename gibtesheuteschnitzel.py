@@ -1,64 +1,60 @@
-# Copyright 2024 by Christian Brossette
+# Copyright 2025 by Christian Brossette
 __author__ = "Christian Brossette"
-__copyright__ = "Copyright 2024"
+__copyright__ = "Copyright 2025"
 __credits__ = ["Christian Brossette"]
 __license__ = "GPL"
-__version__ = "0.4"
+__version__ = "0.5"
 __maintainer__ = "Christian Brossette"
 __email__ = "info@gibtesheuteschnitzel.de"
 __status__ = ""
 
 import re
-import urllib
-import urllib.request
 import time
-import feedparser
-import argparse
+import requests
 import os
 import json
-from datetime import datetime
-from collections import defaultdict
+from datetime import datetime, timezone
 
 
-parser = argparse.ArgumentParser(description='Schnitzel Page')
-args = parser.parse_args()
+def is_today(day):
+    # Parse the input date string
+    input_date = datetime.strptime(day.get('date'), '%Y-%m-%dT%H:%M:%S.%fZ')
+    input_date = input_date.replace(tzinfo=timezone.utc)  # Ensure UTC timezone
+
+    # Get today's date in UTC
+    today = datetime.now(timezone.utc).date()
+
+    # Compare only the date parts
+    return input_date.date() == today
 
 
-german_days = {'Mon': 'Montag',
-				'Tue': 'Dienstag',
-				'Wed': 'Mittwoch',
-				'Thu': 'Donnerstag',
-				'Fri': 'Freitag',
-				'Sat': 'Samstag',
-				'Sun': 'Sonntag'}
-today = german_days[time.strftime("%a")]
+def get_schnitzel(api_url, api_key):
+    headers = {'Authorization': f'Bearer {api_key}'}
+    response = requests.get(api_url, headers=headers)
+    if response.status_code != 200:
+        raise Exception(f"Failed to fetch data: {response.status_code}")
+
+    data = response.json()  # Parse JSON response
+
+    # iterate over the menu days
+    for day in data.get('days', []):
+        if not day.get('isPast'):
+            schnitzel = [
+                item for item in day.get('counters', []) if re.search(r"Schnitzel", json.dumps(item), re.IGNORECASE)
+                ]
+            isToday = is_today(day)
+            break
+        else:
+            continue
+
+    answer = 'nein'
+    if schnitzel and isToday:
+        answer = 'ja'
+
+    return (answer, data, isToday)
 
 
-def isMensaOpen():
-    with urllib.request.urlopen("http://www.studentenwerk-saarland.de/_menuAtom/1") as url:
-        page = url.read()
-        d = feedparser.parse(page)
-        content_day = str(d.entries[0]['title'].split(',')[0])
-        today = time.strftime("%a")
-
-    return content_day == german_days[today]
-
-
-def get_schnitzel():
-    with urllib.request.urlopen("http://www.studentenwerk-saarland.de/_menuAtom/1") as url:
-        page = url.read()
-        d = feedparser.parse(page)
-        content = str(d.entries[0])
-        schnitzel = re.findall(r"Schnitzel|schnitzel", content)
-
-        answer = 'nein'
-        if schnitzel and isMensaOpen():
-            answer = 'ja'
-
-        return (answer, d)
-
-
-def update_stats_file(answer, page):
+def update_stats_file(answer, data, isToday):
     f = open('stats.txt', 'r+')
     # get the last entry of the stat file
     last_line = None
@@ -67,7 +63,7 @@ def update_stats_file(answer, page):
 
     today_date = time.strftime("%x")
 
-    if isMensaOpen():
+    if isToday:
         if today_date == last_line.split('_')[0]:
             if last_line.split('_')[-1].strip() != answer and answer != 'nein':
                 f_ = open('stats.txt', 'r')
@@ -79,39 +75,27 @@ def update_stats_file(answer, page):
                     f_.write(l_)
                 f_.write(str(today_date + '_' + answer + '\n'))
                 f_.close()
-                write_menue_to_archive(page)
+                write_menue_to_archive(data)
         else:
             f.write(str(today_date + '_' + answer + '\n'))
-            write_menue_to_archive(page)
+            write_menue_to_archive(data)
         f.close()
 
 
-def write_menue_to_archive(page):
-    # Get the current date for the directory and filename
+def write_menue_to_archive(data):
     current_date = datetime.now()
     year = current_date.strftime("%Y")
     month = current_date.strftime("%m")
     day = current_date.strftime("%d")
 
-    # Get the current working directory
-    base_directory = os.getcwd()
-
-    # Define the directory structure based on the current date
-    directory_path = os.path.join(base_directory, f"menue_archive/{year}/{month}/{day}")
-
-    # Create the directory structure if it doesn't exist
+    directory_path = os.path.join(os.getcwd(), f"menue_archive/{year}/{month}/{day}")
     os.makedirs(directory_path, exist_ok=True)
 
-    # Define the file name based on the current date
     file_name = f"mensaar_menue_{year}_{month}_{day}.json"
-
-    # Full path to the file
     file_path = os.path.join(directory_path, file_name)
 
-    # Write the menu content as pretty JSON to the file
     with open(file_path, 'w') as file:
-        json.dump(page, file, indent=4)  # Write JSON with indentation for readability
-
+        json.dump(data, file, indent=4)
 
 
 def calculate_p_schnitzel():
@@ -201,8 +185,18 @@ def write_schnitzel_page(answer, stats):
     f.close()
 
 
+def load_config(file_path):
+    with open(file_path, 'r') as file:
+        return json.load(file)
+
+
 if __name__ == '__main__':
-    answer, page = get_schnitzel()
-    update_stats_file(answer, page)
+    config = load_config('config.json')
+    api_url_baseData = config['api_url_baseData']
+    api_url_menu = config['api_url_menu']
+    api_key = config['api_key']
+
+    answer, data, isToday = get_schnitzel(api_url_menu, api_key)
+    update_stats_file(answer, data, isToday)
     stats, answer = calculate_p_schnitzel()
     write_schnitzel_page(answer, stats)
