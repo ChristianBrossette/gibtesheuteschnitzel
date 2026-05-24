@@ -1,25 +1,224 @@
 <!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Schnitzel Auswertung</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .chart-container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            height: 400px;
+        }
+        .nav-link {
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Auswertung von: gibt es heute Schnitzel an der Universitaet des Saarlandes</title>
-        <meta name="description" content="Auswertung" />
+    <h1>Schnitzel Auswertung</h1>
+    <a href="index.html" class="nav-link">← Zurück zur Startseite</a>
 
-        <style>
-            img {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin: 20px auto;
+    <div class="chart-container">
+        <canvas id="overallPieChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="yearlyBarChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="monthlyLineChart"></canvas>
+    </div>
+
+    <script>
+        // Configuration for colors
+        const colorJa = 'rgba(75, 192, 192, 0.7)';
+        const colorNein = 'rgba(255, 99, 132, 0.7)';
+        const colorJaBorder = 'rgb(75, 192, 192)';
+        const colorNeinBorder = 'rgb(255, 99, 132)';
+
+        // Fetch and parse the stats.txt file
+        async function fetchAndParseData() {
+            try {
+                // Assuming stats.txt is in the parent directory relative to webpage/evaluation.html
+                // If it's in the same directory, change this to './stats.txt'
+                const response = await fetch('stats.txt'); 
+                if (!response.ok) throw new Error("Stats file not found");
+                const text = await response.text();
+                
+                const lines = text.split('\n');
+                const data = [];
+
+                lines.forEach(line => {
+                    line = line.trim();
+                    if (!line || !line.includes('_')) return;
+
+                    const [datePart, answer] = line.split('_');
+                    
+                    // Parse date flexibly (handles MM/DD/YY or DD.MM.YY)
+                    let parsedDate;
+                    if (datePart.includes('/')) {
+                        const parts = datePart.split('/');
+                        // Assuming MM/DD/YY based on your Python script
+                        parsedDate = new Date(2000 + parseInt(parts[2]), parseInt(parts[0]) - 1, parseInt(parts[1]));
+                    } else if (datePart.includes('.')) {
+                        const parts = datePart.split('.');
+                        parsedDate = new Date(parts[2], parseInt(parts[1]) - 1, parseInt(parts[0]));
+                    } else if (datePart.includes('-')) {
+                         parsedDate = new Date(datePart);
+                    }
+
+                    if (parsedDate && !isNaN(parsedDate)) {
+                        data.push({
+                            date: parsedDate,
+                            year: parsedDate.getFullYear(),
+                            month: `${parsedDate.getFullYear()}-${String(parsedDate.getMonth() + 1).padStart(2, '0')}`, // YYYY-MM
+                            answer: answer.toLowerCase()
+                        });
+                    }
+                });
+
+                renderCharts(data);
+
+            } catch (error) {
+                console.error("Error loading data:", error);
+                document.body.innerHTML += `<p style="text-align:center; color:red;">Fehler beim Laden der stats.txt: ${error.message}. <br>Stelle sicher, dass die Datei existiert und über einen Webserver aufgerufen wird (CORS).</p>`;
             }
-        </style>
-    </head>
+        }
 
-    <body>
+        function renderCharts(data) {
+            if (data.length === 0) return;
 
-        <img src="current_year_plot.png" alt="Auftreten Schniztel für das aktuelle Jahr">
-        <img src="previous_years_plot.png" alt="Auftreten Schniztel für die vergangenen Jahre">
+            // --- Data Aggregation ---
+            let totalJa = 0;
+            let totalNein = 0;
+            const yearlyStats = {};
+            const monthlyStats = {};
 
-    </body>
+            data.forEach(entry => {
+                const isJa = entry.answer === 'ja';
+                
+                // Overall
+                if (isJa) totalJa++;
+                else totalNein++;
+
+                // Yearly
+                if (!yearlyStats[entry.year]) yearlyStats[entry.year] = { ja: 0, nein: 0 };
+                if (isJa) yearlyStats[entry.year].ja++;
+                else yearlyStats[entry.year].nein++;
+
+                // Monthly
+                if (!monthlyStats[entry.month]) monthlyStats[entry.month] = { ja: 0, total: 0 };
+                monthlyStats[entry.month].total++;
+                if (isJa) monthlyStats[entry.month].ja++;
+            });
+
+            // --- 1. Overall Pie Chart ---
+            new Chart(document.getElementById('overallPieChart'), {
+                type: 'pie',
+                data: {
+                    labels: ['Ja', 'Nein'],
+                    datasets: [{
+                        data: [totalJa, totalNein],
+                        backgroundColor: [colorJa, colorNein],
+                        borderColor: [colorJaBorder, colorNeinBorder],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: { display: true, text: `Gesamtverteilung (${totalJa + totalNein} Tage)`, font: { size: 18 } }
+                    }
+                }
+            });
+
+            // --- 2. Yearly Bar Chart ---
+            const years = Object.keys(yearlyStats).sort();
+            const yearJaData = years.map(y => yearlyStats[y].ja);
+            const yearNeinData = years.map(y => yearlyStats[y].nein);
+
+            new Chart(document.getElementById('yearlyBarChart'), {
+                type: 'bar',
+                data: {
+                    labels: years,
+                    datasets: [
+                        { label: 'Ja', data: yearJaData, backgroundColor: colorJa, borderWidth: 1 },
+                        { label: 'Nein', data: yearNeinData, backgroundColor: colorNein, borderWidth: 1 }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: { stacked: true },
+                        y: { stacked: true, beginAtZero: true }
+                    },
+                    plugins: {
+                        title: { display: true, text: 'Schnitzel nach Jahr', font: { size: 18 } }
+                    }
+                }
+            });
+
+            // --- 3. Monthly Line Chart (Percentage) ---
+            const months = Object.keys(monthlyStats).sort();
+            const monthPercentageData = months.map(m => {
+                const stats = monthlyStats[m];
+                return (stats.ja / stats.total) * 100;
+            });
+
+            new Chart(document.getElementById('monthlyLineChart'), {
+                type: 'line',
+                data: {
+                    labels: months,
+                    datasets: [{
+                        label: '% Wahrscheinlichkeit für Schnitzel',
+                        data: monthPercentageData,
+                        borderColor: '#36A2EB',
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: { beginAtZero: true, max: 100, ticks: { callback: function(value) { return value + "%" } } }
+                    },
+                    plugins: {
+                        title: { display: true, text: 'Monatliche Schnitzel-Wahrscheinlichkeit', font: { size: 18 } }
+                    }
+                }
+            });
+        }
+
+        // Initialize
+        window.onload = fetchAndParseData;
+    </script>
+</body>
 </html>
