@@ -315,7 +315,8 @@ def write_schnitzel_page(answer, stats):
 
                 <head>
                     <meta charset="UTF-8" />
-                    <title>Gibt es heute Schnitzel an der Universitaet des Saarlandes?</title>
+                    <title>Gibt es heute Schnitzel an der Universität des Saarlandes?</title>
+                    <link rel="icon" href="icon.svg" type="image/svg+xml">
                     <meta name="description" content="Ja/Nein" />
 
                     <style>
@@ -349,7 +350,7 @@ def write_schnitzel_page(answer, stats):
             main_content = f"<h1>{answer}</h1>"
             statistic = f"<h2>{stats}</h2>"
             link = '<h2><a href="https://mensaar.de/#/menu/sb">Mensaar Speiseplan</a></h2>'
-            fancy_plots = '<h2><a href="evaluation.html">Auswertung</a></h2>'
+            fancy_plots = '<h2><a href="evaluation.html">Auswertung (Neu!)</a></h2>'
 
             page_end = """
                 <footer>
