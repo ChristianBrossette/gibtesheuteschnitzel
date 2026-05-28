@@ -116,8 +116,7 @@ def get_schnitzel(api_url, api_key, max_retries=3):
                     logger.info(f"Today's schnitzel status: {answer}")
                     return (answer, data, True)
                 else:
-                    logger.debug("Found non-past day but it's not today")
-                    break  # Found future day, stop looking
+                    continue
 
 
             # No today's menu found
@@ -148,7 +147,7 @@ def update_stats_file(answer, data, isToday):
         logger.info("Not updating stats - not checking for today")
         return
         
-    stats_file = 'stats.txt'
+    stats_file = 'webpage/stats.txt'
     today_date = time.strftime("%x")
     logger.info(f"Updating stats for date: {today_date} with answer: {answer}")
     
