@@ -349,7 +349,7 @@ def write_schnitzel_page(answer, stats):
             main_content = f"<h1>{answer}</h1>"
             statistic = f"<h2>{stats}</h2>"
             link = '<h2><a href="https://mensaar.de/#/menu/sb">Mensaar Speiseplan</a></h2>'
-            fancy_plots = '<h2><a href="evaluation.html">Auswertung (Neu!)</a></h2>'
+            fancy_plots = '<h2><a href="evaluation.html">Auswertung</a></h2>'
 
             page_end = """
                 <footer>
