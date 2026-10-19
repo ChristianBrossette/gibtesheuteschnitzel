@@ -1,0 +1,2055 @@
+{
+    "days": [
+        {
+            "date": "2026-06-11T00:00:00.000Z",
+            "isPast": true,
+            "counters": [
+                {
+                    "id": "Men\u00fc 1",
+                    "displayName": "Men\u00fc 1",
+                    "description": "Aufgang A",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 217,
+                        "g": 38,
+                        "b": 26
+                    },
+                    "feedback": {
+                        "start": "2026-06-11T09:30:00.000Z",
+                        "end": "2026-06-12T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Gulasch vom Schwein \u201eG\u00e4rtnerin Art\u201c",
+                            "notices": [
+                                "swf"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Sp\u00e4tzle",
+                                    "notices": [
+                                        "ei",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Alternativbeilage",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Bunt gemischter Blattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Obst",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,65",
+                                "m": "6,70",
+                                "g": "9,35"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Men\u00fc 2",
+                    "displayName": "Men\u00fc 2",
+                    "description": "Aufgang B",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 21,
+                        "g": 135,
+                        "b": 207
+                    },
+                    "feedback": {
+                        "start": "2026-06-11T09:30:00.000Z",
+                        "end": "2026-06-12T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Gem\u00fcse-Paella mit Kr\u00e4uterdip",
+                            "notices": [
+                                "vn",
+                                "kn",
+                                "fs",
+                                "sm",
+                                "ei",
+                                "la",
+                                "snf",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Pusztasalat",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Pudding Karamell",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,10",
+                                "m": "5,60",
+                                "g": "7,80"
+                            },
+                            "category": "Vegan"
+                        }
+                    ]
+                },
+                {
+                    "id": "Wahlessen",
+                    "displayName": "Wahlessen",
+                    "description": "Aufgang C",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T13:45:00.000Z"
+                    },
+                    "color": {
+                        "r": 245,
+                        "g": 204,
+                        "b": 43
+                    },
+                    "feedback": {
+                        "start": "2026-06-11T09:30:00.000Z",
+                        "end": "2026-06-12T11:45:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Pochierter Wildlachs mit Basilikumso\u00dfe",
+                            "notices": [
+                                "fi",
+                                "la",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Pasta",
+                                    "notices": [
+                                        "ei",
+                                        "we"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "5,55",
+                                "m": "6,70",
+                                "g": "7,40"
+                            },
+                            "category": "mensaVital"
+                        },
+                        {
+                            "name": "Flammkuchen \u201eEls\u00e4sser Art\u201c",
+                            "notices": [
+                                "ks",
+                                "ao",
+                                "swf",
+                                "la",
+                                "we"
+                            ],
+                            "components": [],
+                            "prices": {
+                                "s": "5,10",
+                                "m": "6,25",
+                                "g": "6,95"
+                            }
+                        },
+                        {
+                            "name": "Flammkuchen mit Mozzarella und Rucola",
+                            "notices": [
+                                "la",
+                                "we"
+                            ],
+                            "components": [],
+                            "prices": {
+                                "s": "4,90",
+                                "m": "6,05",
+                                "g": "6,75"
+                            }
+                        },
+                        {
+                            "name": "Salatbuffet",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Tomatensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Wei\u00dfkraut",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gurken",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Zwiebelringe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karotten",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gemischter Paprika",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Mais",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Peperoni",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Chicoree",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Lollo Bianco",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Radicchio",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Kr\u00e4uter und H\u00fclsenfr\u00fcchte",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,70",
+                                "m": "4,90",
+                                "g": "5,70"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "mensacafe",
+                    "displayName": "Mensacaf\u00e9",
+                    "description": "Erdgeschoss",
+                    "openingHours": {
+                        "start": "1970-01-01T11:15:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 16,
+                        "g": 107,
+                        "b": 10
+                    },
+                    "feedback": {
+                        "start": "2026-06-11T09:15:00.000Z",
+                        "end": "2026-06-12T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Vegan: Erdnusspf\u00e4nnchen mit Gem\u00fcse und Soja",
+                            "notices": [
+                                "kn",
+                                "en",
+                                "so",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Basmatireis (aus biologischem Anbau)",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "4,00",
+                                "m": "5,50",
+                                "g": "6,45"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "info",
+                    "displayName": "Information",
+                    "description": "",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "meals": [
+                        {
+                            "name": "\u201eMensahilfe f\u00fcr bed\u00fcrftige Studierende\u201c",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Unter Vorlage des Berechtigungsscheines erhalten Sie das Vegetarische Men\u00fc 2",
+                                    "notices": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "\u201eRettet die Knolle\u201c Verantwortung, die schmeckt.",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Was du tun musst? Iss Kartoffeln und lass sie dir schmecken!",
+                                    "notices": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2026-06-12T00:00:00.000Z",
+            "isPast": false,
+            "counters": [
+                {
+                    "id": "Men\u00fc 1",
+                    "displayName": "Men\u00fc 1",
+                    "description": "Aufgang A",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 217,
+                        "g": 38,
+                        "b": 26
+                    },
+                    "feedback": {
+                        "start": "2026-06-12T09:30:00.000Z",
+                        "end": "2026-06-13T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Cevapcici mit Tzatziki",
+                            "notices": [
+                                "swf",
+                                "kn",
+                                "azf",
+                                "ei",
+                                "la"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Salzkartoffeln (aus biologischem Anbau) - \u201eRettet die Knolle\u201c",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Alternativbeilage",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Wei\u00dfkrautsalat",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Mandarinenquark",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,65",
+                                "m": "6,70",
+                                "g": "9,35"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Men\u00fc 2",
+                    "displayName": "Men\u00fc 2",
+                    "description": "Aufgang B",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 21,
+                        "g": 135,
+                        "b": 207
+                    },
+                    "feedback": {
+                        "start": "2026-06-12T09:30:00.000Z",
+                        "end": "2026-06-13T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Hausgemachte Frikadelle aus Erbsenprotein \u201egriechischer Art\u201c mit Tzatziki",
+                            "notices": [
+                                "ao",
+                                "bl",
+                                "la",
+                                "snf",
+                                "kn"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Salzkartoffeln (aus biologischem Anbau) - \u201eRettet die Knolle\u201c",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Bunt gemischter Blattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Obst",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,10",
+                                "m": "5,60",
+                                "g": "7,80"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Wahlessen",
+                    "displayName": "Wahlessen",
+                    "description": "Aufgang C",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T13:45:00.000Z"
+                    },
+                    "color": {
+                        "r": 245,
+                        "g": 204,
+                        "b": 43
+                    },
+                    "feedback": {
+                        "start": "2026-06-12T09:30:00.000Z",
+                        "end": "2026-06-13T11:45:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Holzf\u00e4ller Cordon Bleu vom Schwein dazu Zitrone",
+                            "notices": [
+                                "ks",
+                                "ao",
+                                "swf",
+                                "ei",
+                                "la",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Twister Fries",
+                                    "notices": [
+                                        "kn",
+                                        "we"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "6,05",
+                                "m": "7,20",
+                                "g": "7,90"
+                            }
+                        },
+                        {
+                            "name": "Salatbuffet",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Tomatensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Wei\u00dfkraut",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gurken",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Zwiebelringe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karotten",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gemischter Paprika",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Mais",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Peperoni",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Kopfsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Endiviensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Radicchio",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Limetten-Joghurt-Dressing",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                },
+                                {
+                                    "name": "Kr\u00e4uter und H\u00fclsenfr\u00fcchte",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,70",
+                                "m": "4,90",
+                                "g": "5,70"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "mensacafe",
+                    "displayName": "Mensacaf\u00e9",
+                    "description": "Erdgeschoss",
+                    "openingHours": {
+                        "start": "1970-01-01T11:15:00.000Z",
+                        "end": "1970-01-01T14:00:00.000Z"
+                    },
+                    "color": {
+                        "r": 16,
+                        "g": 107,
+                        "b": 10
+                    },
+                    "feedback": {
+                        "start": "2026-06-12T09:15:00.000Z",
+                        "end": "2026-06-13T12:00:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Vegan: Rote-Bete-Gnocchi-Pfanne mit Spinat, Tomaten und Waln\u00fcssen",
+                            "notices": [
+                                "kn",
+                                "we",
+                                "wa"
+                            ],
+                            "components": [],
+                            "prices": {
+                                "s": "4,25",
+                                "m": "5,40",
+                                "g": "6,10"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "info",
+                    "displayName": "Information",
+                    "description": "",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "meals": [
+                        {
+                            "name": "\u201eMensahilfe f\u00fcr bed\u00fcrftige Studierende\u201c",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Unter Vorlage des Berechtigungsscheines erhalten Sie das Vegetarische Men\u00fc 2",
+                                    "notices": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "\u201eRettet die Knolle\u201c Verantwortung, die schmeckt.",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Was du tun musst? Iss Kartoffeln und lass sie dir schmecken!",
+                                    "notices": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2026-06-15T00:00:00.000Z",
+            "isPast": false,
+            "counters": [
+                {
+                    "id": "Men\u00fc 1",
+                    "displayName": "Men\u00fc 1",
+                    "description": "Aufgang A",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 217,
+                        "g": 38,
+                        "b": 26
+                    },
+                    "feedback": {
+                        "start": "2026-06-15T09:30:00.000Z",
+                        "end": "2026-06-16T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Paniertes Schnitzel vom Schwein",
+                            "notices": [
+                                "swf",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "J\u00e4gerso\u00dfe",
+                                    "notices": [
+                                        "ks",
+                                        "ao",
+                                        "swf",
+                                        "al",
+                                        "la",
+                                        "sw"
+                                    ]
+                                },
+                                {
+                                    "name": "Tomatenreis",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Bunter Rohkostsalat",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Schokoladenpudding",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,65",
+                                "m": "6,70",
+                                "g": "9,35"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Men\u00fc 2",
+                    "displayName": "Men\u00fc 2",
+                    "description": "Aufgang B",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 21,
+                        "g": 135,
+                        "b": 207
+                    },
+                    "feedback": {
+                        "start": "2026-06-15T09:30:00.000Z",
+                        "end": "2026-06-16T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Bandnudeln mit Tomate, Zucchini und Hartk\u00e4se",
+                            "notices": [
+                                "ks",
+                                "ei",
+                                "la",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Bunt gemischter Blattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Obst",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,10",
+                                "m": "5,60",
+                                "g": "7,80"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Wahlessen",
+                    "displayName": "Wahlessen",
+                    "description": "Aufgang C",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T13:45:00.000Z"
+                    },
+                    "color": {
+                        "r": 245,
+                        "g": 204,
+                        "b": 43
+                    },
+                    "feedback": {
+                        "start": "2026-06-15T09:30:00.000Z",
+                        "end": "2026-06-16T11:45:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Weltmeisterschaft 2026 \u2013 Kulinarische Ausw\u00e4rtsspiele",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Kabritu Stob\u00e1 Rindereintopf aus Cura\u00e7ao",
+                                    "notices": [
+                                        "kn"
+                                    ]
+                                },
+                                {
+                                    "name": "FUNCHI - Maismehlpolenta",
+                                    "notices": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "KlimaTeller: Vegan: Soja-Gyros aus der Pfanne",
+                            "notices": [
+                                "so",
+                                "sl",
+                                "snf"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Vegan:Knoblauch-Kr\u00e4uter-Dip",
+                                    "notices": [
+                                        "ao",
+                                        "kn",
+                                        "so"
+                                    ]
+                                },
+                                {
+                                    "name": "Pommes Frites - Rettet die Knolle",
+                                    "notices": [
+                                        "ba"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Salatbuffet",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Tomatensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Weisskraut",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gurken",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Zwiebelringe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karotten",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gemischter Paprika",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Mais",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Peperoni",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Lollo Bianco",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Lollo Rosso",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Radicchio",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,70",
+                                "m": "4,90",
+                                "g": "5,70"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "mensacafe",
+                    "displayName": "Mensacaf\u00e9",
+                    "description": "Erdgeschoss",
+                    "openingHours": {
+                        "start": "1970-01-01T11:15:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 16,
+                        "g": 107,
+                        "b": 10
+                    },
+                    "feedback": {
+                        "start": "2026-06-15T09:15:00.000Z",
+                        "end": "2026-06-16T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Chili-Cheese-Fritten mit Rinderhackfleisch - Rettet die Knolle",
+                            "notices": [
+                                "fs",
+                                "ks",
+                                "ei",
+                                "la",
+                                "snf"
+                            ],
+                            "components": []
+                        },
+                        {
+                            "name": "KlimaTeller: Chili-Cheese-Fritten - Rettet die Knolle",
+                            "notices": [
+                                "fs",
+                                "ks",
+                                "kn",
+                                "ei",
+                                "la",
+                                "snf"
+                            ],
+                            "components": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2026-06-16T00:00:00.000Z",
+            "isPast": false,
+            "counters": [
+                {
+                    "id": "Men\u00fc 1",
+                    "displayName": "Men\u00fc 1",
+                    "description": "Aufgang A",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 217,
+                        "g": 38,
+                        "b": 26
+                    },
+                    "feedback": {
+                        "start": "2026-06-16T09:30:00.000Z",
+                        "end": "2026-06-17T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Gebratene Bratwurst",
+                            "notices": [
+                                "vn"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Bratenso\u00dfe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Hausgemachter Kartoffelstampf - Rettet die Knolle",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                },
+                                {
+                                    "name": "Gazpachosalat",
+                                    "notices": [
+                                        "fs",
+                                        "kn",
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Himbeer-Vanillejoghurt",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,65",
+                                "m": "6,70",
+                                "g": "9,35"
+                            },
+                            "category": "Vegan"
+                        }
+                    ]
+                },
+                {
+                    "id": "Men\u00fc 2",
+                    "displayName": "Men\u00fc 2",
+                    "description": "Aufgang B",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 21,
+                        "g": 135,
+                        "b": 207
+                    },
+                    "feedback": {
+                        "start": "2026-06-16T09:30:00.000Z",
+                        "end": "2026-06-17T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Germkn\u00f6del mit Fruchtf\u00fcllung",
+                            "notices": [
+                                "ve",
+                                "ei",
+                                "la",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Vanilleso\u00dfe",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                },
+                                {
+                                    "name": "Bunt gemischter Blattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Gem\u00fcsecremesuppe",
+                                    "notices": [
+                                        "kn",
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,10",
+                                "m": "5,60",
+                                "g": "7,80"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Wahlessen",
+                    "displayName": "Wahlessen",
+                    "description": "Aufgang C",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T13:45:00.000Z"
+                    },
+                    "color": {
+                        "r": 245,
+                        "g": 204,
+                        "b": 43
+                    },
+                    "feedback": {
+                        "start": "2026-06-16T09:30:00.000Z",
+                        "end": "2026-06-17T11:45:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Vietnamesische Nudel-Bowl mit gebratenem Tofu",
+                            "notices": [
+                                "vn",
+                                "ks",
+                                "ao",
+                                "kn",
+                                "so",
+                                "we"
+                            ],
+                            "components": [],
+                            "category": "Vegan"
+                        },
+                        {
+                            "name": "Pizza mit frischen Champignons",
+                            "notices": [
+                                "la",
+                                "we"
+                            ],
+                            "components": []
+                        },
+                        {
+                            "name": "Salatbuffet",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Tomatensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Weisskraut",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gurken",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Zwiebelringe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karotten",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gemischter Paprika",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Mais",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Peperoni",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Romasalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Kopfsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Radicchio",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,70",
+                                "m": "4,90",
+                                "g": "5,70"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "mensacafe",
+                    "displayName": "Mensacaf\u00e9",
+                    "description": "Erdgeschoss",
+                    "openingHours": {
+                        "start": "1970-01-01T11:15:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 16,
+                        "g": 107,
+                        "b": 10
+                    },
+                    "feedback": {
+                        "start": "2026-06-16T09:15:00.000Z",
+                        "end": "2026-06-17T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Tomaten-Chili-Knoblauch-Spaghetti mit gr\u00e4uchertemTofu",
+                            "notices": [
+                                "kn",
+                                "so",
+                                "we"
+                            ],
+                            "components": [],
+                            "category": "mensaVital"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2026-06-17T00:00:00.000Z",
+            "isPast": false,
+            "counters": [
+                {
+                    "id": "Men\u00fc 1",
+                    "displayName": "Men\u00fc 1",
+                    "description": "Aufgang A",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 217,
+                        "g": 38,
+                        "b": 26
+                    },
+                    "feedback": {
+                        "start": "2026-06-17T09:30:00.000Z",
+                        "end": "2026-06-18T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Ungarisches Gulasch von der Pute",
+                            "notices": [
+                                "ao",
+                                "gf"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Reis",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Jagsttalersalat",
+                                    "notices": [
+                                        "fs",
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Aprikosenquark",
+                                    "notices": [
+                                        "ao",
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,65",
+                                "m": "6,70",
+                                "g": "9,35"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Men\u00fc 2",
+                    "displayName": "Men\u00fc 2",
+                    "description": "Aufgang B",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 21,
+                        "g": 135,
+                        "b": 207
+                    },
+                    "feedback": {
+                        "start": "2026-06-17T09:30:00.000Z",
+                        "end": "2026-06-18T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Nudelauflauf Havanna",
+                            "notices": [
+                                "kn",
+                                "ei",
+                                "la",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Bunt gemischter Blattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe Dressing",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Obst",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,10",
+                                "m": "5,60",
+                                "g": "7,80"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Wahlessen",
+                    "displayName": "Wahlessen",
+                    "description": "Aufgang C",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T13:45:00.000Z"
+                    },
+                    "color": {
+                        "r": 245,
+                        "g": 204,
+                        "b": 43
+                    },
+                    "feedback": {
+                        "start": "2026-06-17T09:30:00.000Z",
+                        "end": "2026-06-18T11:45:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "ZiS: Spezialit\u00e4tentag Ukraine",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Kartoffelpuffer - Rettet die Knolle",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "KlimaTeller: Pilzrahmso\u00dfe (Deruny)",
+                                    "notices": [
+                                        "fs",
+                                        "kn",
+                                        "ve",
+                                        "la",
+                                        "snf"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Hamburger Italian Bastard",
+                            "notices": [
+                                "ks",
+                                "ao",
+                                "swf",
+                                "kn",
+                                "azf",
+                                "ei",
+                                "la",
+                                "snf",
+                                "se",
+                                "we",
+                                "kas"
+                            ],
+                            "components": []
+                        },
+                        {
+                            "name": "KlimaTeller: Hamburger Veggie Berlin",
+                            "notices": [
+                                "ao",
+                                "kn",
+                                "so",
+                                "se",
+                                "we",
+                                "ge",
+                                "has"
+                            ],
+                            "components": []
+                        },
+                        {
+                            "name": "Salatbuffet",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Tomatensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Weisskraut",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gurken",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Zwiebelringe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karotten",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gemischter Paprika",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Mais",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Peperoni",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Lollo Bianco",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Eichblattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Radicchio",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,70",
+                                "m": "4,90",
+                                "g": "5,70"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "mensacafe",
+                    "displayName": "Mensacaf\u00e9",
+                    "description": "Erdgeschoss",
+                    "openingHours": {
+                        "start": "1970-01-01T11:15:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 16,
+                        "g": 107,
+                        "b": 10
+                    },
+                    "feedback": {
+                        "start": "2026-06-17T09:15:00.000Z",
+                        "end": "2026-06-18T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Veggie Sandwich Chicken Style",
+                            "notices": [
+                                "ph",
+                                "we",
+                                "ge"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Coleslaw Topping",
+                                    "notices": [
+                                        "ao"
+                                    ]
+                                },
+                                {
+                                    "name": "Barbecueso\u00dfe",
+                                    "notices": [
+                                        "sl"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2026-06-18T00:00:00.000Z",
+            "isPast": false,
+            "counters": [
+                {
+                    "id": "Men\u00fc 1",
+                    "displayName": "Men\u00fc 1",
+                    "description": "Aufgang A",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 217,
+                        "g": 38,
+                        "b": 26
+                    },
+                    "feedback": {
+                        "start": "2026-06-18T09:30:00.000Z",
+                        "end": "2026-06-19T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Hausgemachte Frikadelle",
+                            "notices": [
+                                "gv",
+                                "swf",
+                                "ei",
+                                "snf",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Bunter Kartoffelsalat",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Bunt gemischter Blattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe Dressing",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Obst",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,65",
+                                "m": "6,70",
+                                "g": "9,35"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Men\u00fc 2",
+                    "displayName": "Men\u00fc 2",
+                    "description": "Aufgang B",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:30:00.000Z"
+                    },
+                    "color": {
+                        "r": 21,
+                        "g": 135,
+                        "b": 207
+                    },
+                    "feedback": {
+                        "start": "2026-06-18T09:30:00.000Z",
+                        "end": "2026-06-19T12:30:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Indisches Linsencurry",
+                            "notices": [
+                                "kn",
+                                "la",
+                                "sl",
+                                "snf"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Reis",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karottensalat",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Milchreis mit Zimt und Zucker",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,10",
+                                "m": "5,60",
+                                "g": "7,80"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Wahlessen",
+                    "displayName": "Wahlessen",
+                    "description": "Aufgang C",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T13:45:00.000Z"
+                    },
+                    "color": {
+                        "r": 245,
+                        "g": 204,
+                        "b": 43
+                    },
+                    "feedback": {
+                        "start": "2026-06-18T09:30:00.000Z",
+                        "end": "2026-06-19T11:45:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Panierte H\u00fchner-Filetspitzen",
+                            "notices": [
+                                "gf",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Chili-Kr\u00e4uterdip",
+                                    "notices": [
+                                        "so",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Pommes Wedges - Rettet die Knolle",
+                                    "notices": [
+                                        "we"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Flammkuchen Saarl\u00e4ndische Art mit Lyoner und Kartoffelw\u00fcrfel",
+                            "notices": [
+                                "ks",
+                                "ao",
+                                "la",
+                                "we"
+                            ],
+                            "components": []
+                        },
+                        {
+                            "name": "Flammkuchen mit buntem Gem\u00fcse",
+                            "notices": [
+                                "la",
+                                "we"
+                            ],
+                            "components": []
+                        },
+                        {
+                            "name": "Salatbuffet",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Tomatensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Weisskraut",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gurken",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Zwiebelringe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karotten",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gemischter Paprika",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Mais",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Peperoni",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Chicoree",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Lollo Bianco",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Radicchio",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,70",
+                                "m": "4,90",
+                                "g": "5,70"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "mensacafe",
+                    "displayName": "Mensacaf\u00e9",
+                    "description": "Erdgeschoss",
+                    "openingHours": {
+                        "start": "1970-01-01T11:15:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 16,
+                        "g": 107,
+                        "b": 10
+                    },
+                    "feedback": {
+                        "start": "2026-06-18T09:15:00.000Z",
+                        "end": "2026-06-19T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Vegan: Penne mit Spinat-Erdnussso\u00dfe",
+                            "notices": [
+                                "kn",
+                                "en",
+                                "we",
+                                "ha"
+                            ],
+                            "components": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2026-06-19T00:00:00.000Z",
+            "isPast": false,
+            "counters": [
+                {
+                    "id": "Men\u00fc 1",
+                    "displayName": "Men\u00fc 1",
+                    "description": "Aufgang A",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 217,
+                        "g": 38,
+                        "b": 26
+                    },
+                    "feedback": {
+                        "start": "2026-06-19T09:30:00.000Z",
+                        "end": "2026-06-20T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "Penne Rigate (aus biologischem Anbau)",
+                            "notices": [
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Bolognese So\u00dfe",
+                                    "notices": [
+                                        "kn",
+                                        "sl"
+                                    ]
+                                },
+                                {
+                                    "name": "Geriebener K\u00e4se",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                },
+                                {
+                                    "name": "Pusztasalat",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Sahnepudding",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,65",
+                                "m": "6,70",
+                                "g": "9,35"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Men\u00fc 2",
+                    "displayName": "Men\u00fc 2",
+                    "description": "Aufgang B",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T14:15:00.000Z"
+                    },
+                    "color": {
+                        "r": 21,
+                        "g": 135,
+                        "b": 207
+                    },
+                    "feedback": {
+                        "start": "2026-06-19T09:30:00.000Z",
+                        "end": "2026-06-20T12:15:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Vegane Harira-Suppe",
+                            "notices": [
+                                "sl"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Br\u00f6tchen",
+                                    "notices": [
+                                        "we",
+                                        "ge"
+                                    ]
+                                },
+                                {
+                                    "name": "Bunt gemischter Blattsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                },
+                                {
+                                    "name": "Wei\u00dfe Salatso\u00dfe",
+                                    "notices": [
+                                        "fs",
+                                        "sm",
+                                        "ei",
+                                        "la",
+                                        "snf",
+                                        "we"
+                                    ]
+                                },
+                                {
+                                    "name": "Obst",
+                                    "notices": []
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,10",
+                                "m": "5,60",
+                                "g": "7,80"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Wahlessen",
+                    "displayName": "Wahlessen",
+                    "description": "Aufgang C",
+                    "openingHours": {
+                        "start": "1970-01-01T11:30:00.000Z",
+                        "end": "1970-01-01T13:45:00.000Z"
+                    },
+                    "color": {
+                        "r": 245,
+                        "g": 204,
+                        "b": 43
+                    },
+                    "feedback": {
+                        "start": "2026-06-19T09:30:00.000Z",
+                        "end": "2026-06-20T11:45:00.000Z"
+                    },
+                    "meals": [
+                        {
+                            "name": "KlimaTeller: Vegan: Fagottini mit Tomaten-Basilikumf\u00fcllung",
+                            "notices": [
+                                "kn",
+                                "we"
+                            ],
+                            "components": [
+                                {
+                                    "name": "Tomaten-Bechamelso\u00dfe",
+                                    "notices": [
+                                        "kn",
+                                        "ve",
+                                        "la"
+                                    ]
+                                },
+                                {
+                                    "name": "Geriebener K\u00e4se",
+                                    "notices": [
+                                        "la"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Salatbuffet",
+                            "notices": [],
+                            "components": [
+                                {
+                                    "name": "Tomatensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Weisskraut",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gurken",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Zwiebelringe",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Karotten",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Gemischter Paprika",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Mais",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Peperoni",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Kopfsalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Endiviensalat",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Radicchio",
+                                    "notices": []
+                                },
+                                {
+                                    "name": "Klare Salatso\u00dfe",
+                                    "notices": [
+                                        "snf"
+                                    ]
+                                }
+                            ],
+                            "prices": {
+                                "s": "3,70",
+                                "m": "4,90",
+                                "g": "5,70"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
